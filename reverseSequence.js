@@ -7,7 +7,7 @@ const reverseSeq = n => {
     let newArray = []
     while(n >= 1){
       newArray.push(n);
-      n--
+      n--;
     }
     return newArray;
   };

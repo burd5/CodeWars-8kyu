@@ -5,9 +5,7 @@ Write a function that will take the number of petals of each flower and return t
 */
 
 function lovefunc(flower1, flower2){
-    let flower1Petals = flower1 % 2
-    let flower2Petals = flower2 % 2
-    if(flower1Petals !== flower2Petals){
+    if(flower1 % 2 !== flower2 % 2){
       return true;
     }
     else{
